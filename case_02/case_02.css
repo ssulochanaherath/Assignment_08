@@ -1,0 +1,60 @@
+body {
+    background-color : darkslategrey;
+}
+
+main {
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+section {
+    height: fit-content;
+    width: fit-content;
+
+    display: flex;
+    margin: auto;
+}
+
+section>div {
+    height: 120px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#clr1 {
+    background: red;
+
+    position: relative;
+    bottom: 125px;
+}
+
+#clr2 {
+    background: green;
+}
+
+#clr3 {
+    background: blue;
+}
+
+#clr4 {
+    background: yellow;
+}
+
+#clr5 {
+    background: pink;
+}
+
+#clr6 {
+    background: deeppink;
+
+    position: relative;
+    top: 128px;
+}
