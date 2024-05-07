@@ -58,3 +58,19 @@ section>div {
     position: relative;
     top: 128px;
 }
+
+#buttons {
+    position: absolute;
+    left: 500px;
+    bottom: -300px;
+}
+
+#buttons>button {
+    height: 75px;
+    width: 180px;
+    background-color: lightgray;
+    font-size: 15px;
+    border-radius: 10px;
+
+    margin: 50px;
+}

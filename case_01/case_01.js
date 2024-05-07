@@ -23,4 +23,4 @@ $("#startButton").on("click",function () {
 
 $("#stopButton").on("click",function () {
     clearInterval(myInterval);
-})
+});
