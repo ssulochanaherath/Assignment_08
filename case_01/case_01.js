@@ -15,4 +15,12 @@ function replaceValues() {
     $("#div6").text(array[5]);
 }
 
-setInterval(replaceValues, 800);
+// setInterval(replaceValues, 800);
+
+$("#startButton").on("click",function () {
+    myInterval = setInterval(replaceValues, 800);
+});
+
+$("#stopButton").on("click",function () {
+    clearInterval(myInterval);
+})

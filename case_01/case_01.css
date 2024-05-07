@@ -41,3 +41,21 @@ section {
     height: 400px;
     width: 500px;
 }
+
+#buttons {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -400px;
+}
+
+#buttons>button {
+    height: 50px;
+    width: 100px;
+    color: white;
+    background-color: slategrey;
+    font-size: 15px;
+    border-radius: 10px;
+
+    margin: 50px;
+}
